@@ -36,7 +36,7 @@ public class EventsDAO {
 		}
 	}
 	
-/*	public void refresh(long id, String titolo) {
+	public void refresh(long id, String titolo) {
 		Evento found = em.find(Evento.class, id);
 		found.setTitolo(titolo);
 		System.out.println("PRE REFRESH");
@@ -44,5 +44,5 @@ public class EventsDAO {
 		em.refresh(found);
 		System.out.println("POST REFRESH");
 		System.out.println(found);
-	} */
+	} 
 }
